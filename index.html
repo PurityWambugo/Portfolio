@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/girl.png" type="image/x-icon">
+    <title>Portfolio</title>
+</head>
+<body>
+
+  <!--navigation bar-->
+  <nav class="navbar navbar-expand-lg  sticky-top border-bottom">
+    <div class="container-fluid">
+
+      <h1 class=" col-7  display-4" href="#" style="color: white;">Purity.K</h1>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse " id="navbarNav">
+
+        <ul class="navbar-nav col-5">
+          <li class="nav-item">
+            <a class="nav-link list-group-item-action" aria-current="page" href="#home" style="font-size: 30px;">Home</a>
+          </li>
+          <li class="nav-item " >
+            <a class="nav-link list-group-item-action" href="#aboutme" style="font-size: 30px;">Aboutme</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link list-group-item-action" href="#projects " style="font-size: 30px;">Projects</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link list-group-item-action" href="#contact" style="font-size: 30px;">Contact</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <!--end of navigation bar  -->
+
+  <!-- start of scroll -->
+  <div data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-smooth-scroll="true" class="scrollspy-example"   tabindex="0">
+    <!-- home page -->
+    <div>
+      <div class="container d-flex flex-wrap" id="home" >
+        <div class="content col-md-9">
+        <p class="h1 display-3">Hi,I'm Purity Koinange</p>
+        <p class="h2 display-5">Software Developer</p>
+        <p  class="h5">I love exploring and creating .I am a lifelong learner with a passion for technology </p>
+        <a href="https://github.com/PurityWambugo"><i class="fa-brands fa-square-github fa-2xl" style="color: #000000;"></i></a>
+        <a href="#contact"><i class="fa-brands fa-twitter fa-2xl p-4" style="color: #000000;"></i></a>
+        <a href="#contact"><i class="fa-solid fa-envelope fa-2xl" style="color: #000000;"></i></a>
+        <br>
+        <a class="btn btn-dark mt-3" href="#contact" role="button">Contact me</a>
+        
+      </div>
+
+      <div class="img col-md-3">
+        <img src="images/girl.png" alt="" class="rounded-circle " width="400px" style="max-width: 100%;">
+      </div>
+  
+    </div>
+    <!-- end of homepage -->
+  
+    <!-- aboutme page -->
+    <div class="container" id="aboutme">
+
+      <div class="about">
+        <p class="h1 display-3 pt-lg-3" >About Me </p>
+        <p class="h5">I am an aspiring web-developer with a certificate in web-develepmont and currently pursuing my diploma in the same field as my passion technology is endless as well as my love for the game of chess.If you're looking for a dedicated and skilled web developer who can bring your ideas to life, I would love to connect and discuss how we can work together to create a remarkable online presence for your business or project. Feel free to reach out to me for any inquiries or collaboration opportunities.</p>
+      </div>
+
+      <p class="h3 text-center pt-lg-4">My Skills</p>
+      <div class="skills d-flex flex-wrap justify-content-center w-100">
+        <div class="col-md-2 m-3">
+          <img src="images/html.png" alt="" width="120px">
+          <h5>HTML</h5>
+        </div>
+
+        <div class="col-md-2 m-md-3">
+          <img src="images/css.png" alt="" width="120px">
+          <h5>CSS</h5>
+        </div>
+
+        <div class="col-md-2 m-md-3">
+          <img src="images/sql.png" alt="" width="100px">
+          <h5>SQL</h5>
+        </div>  
+
+        <div class="col-md-2 m-md-3">
+          <img src="images/php.png" alt="" width="120px">
+          <h5>PHP</h5>
+        </div>
+
+        <div class="col-md-2 m-md-3">
+          <img src="images/bootsrap.png" alt="" width="140px">
+          <h5>BOOTSTRAP</h5>
+        </div>
+      </div>    
+
+    </div>
+    <!-- end of aboutme page -->
+
+    <!-- projects page -->
+    <div class="container" id="projects">
+      <h1 class="display-3" >Projects</h1>
+      <h3 class="text-center">Click for more information</h3> 
+        <!--parent container for cards-->
+        <div class="cards d-flex flex-wrap justify-content-center pt-lg-3">
+  
+          <!--child container-->
+          <div class="card mb-3 me-3" data-bs-toggle="modal" data-bs-target="#Modal1">
+            <img src="images/chess.png" alt=""class="h-100 border-3">
+          
+          </div> 
+          <!-- end of child container -->
+                    
+          <!-- Modal -->
+          <div class="modal fade" id="Modal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-20" id="exampleModalLabel">Knight Chess School</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body h3">
+                  This was a school project and I chose to create  a chess school.The languages used are HTML and CSS
+                </div>
+
+                <div class="modal-footer">
+                  <a class="btn btn-lg btn-dark mt-3" href="http://knightchessschool.atwebpages.com/" target="_blank" role="button">See demo</a>
+                </div>
+            
+              </div>
+            </div>
+          </div>
+          <!-- end of modal -->
+            
+      
+          <!--child container-->
+          <div class="card mb-3 me-3" data-bs-toggle="modal" data-bs-target="#Modal2">
+              <img src="images/restaurant.PNG" alt="" class="h-100 border-3">
+            
+          </div>
+          <!-- end of child container -->  
+        
+          <!-- Modal -->
+          <div class="modal fade" id="Modal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-20" id="exampleModalLabel">Adare Restaurant</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body h3">
+                  This was a project  recreating the Adare Restaurant page.The languages used are HTML and CSS.
+                </div>
+            
+                
+                <div class="modal-footer">
+                  <a class="btn btn-lg btn-dark mt-3" href="projects/restaurant/index.html" target="_blank" role="button">See demo</a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <!-- end of modal -->
+            
+    
+          <!--child container-->
+          <div class="card mb-3 me-3" data-bs-toggle="modal" data-bs-target="#Modal3"style=" background: linear-gradient(90deg,#00F490,#00BBC9);">
+            <img src="images/yogurt.svg" alt="" class="h-100">
+        
+          </div> 
+          <!-- end of child container --> 
+          
+          <!-- Modal -->
+          <div class="modal fade" id="Modal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-20" id="exampleModalLabel">Dan's Meat Flavoured Yogurt</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body h3">
+                  This was a project  recreating the Dan's meat flavoured yogurt page.The languages used are HTML and CSS.
+                </div>
+
+                
+                <div class="modal-footer">
+                  <a class="btn btn-lg btn-dark mt-3" href="projects/yogurt/index.html" target="_blank" role="button">See demo</a>
+                </div>
+            
+              </div>
+            </div>
+          </div>
+          <!-- end of modal -->
+      
+            
+          <!--child container-->
+          <div class="card mb-3 me-3" data-bs-toggle="modal" data-bs-target="#Modal4">
+              <img src="images/bike.jpg" alt="" class="h-100">
+          
+          </div>  
+          <!-- end of child container -->
+                    
+          <!-- Modal -->
+          <div class="modal fade" 
+           id="Modal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-20" id="exampleModalLabel">Mobile Bike Repairs</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body h3">
+                  This was a project  recreating a mobile bike repairs  page.The languages used are HTML and CSS.
+                </div>
+                
+                <div class="modal-footer">
+                  <a class="btn btn-lg btn-dark mt-3" href="projects/mobile_bike_repairs2/index.html" target="_blank" role="button">See demo</a>
+                </div>
+            
+              </div>
+            </div>
+          </div>
+          <!-- end of modal -->
+
+        </div>
+        <!-- end of parent container -->
+
+    </div>  
+    <!-- end of projects page -->
+    
+    <!-- contacts page -->
+    <div class="container">
+      <div class=" d-flex flex-wrap pt-lg-4" id="contact">
+        <div class=" col-md ">
+          <p class="h1 display-3">contact me</p>
+          <i class="fa-solid fa-paper-plane" style="color: #ffffff;"></i> <p>puritykoinange@gmail.com</p>
+          <i class="fa-solid fa-phone" style="color: #ffffff;"></i><p>074534534</p>
+          <p>or send me a message</p>
+          
+        </div>
+    
+        <div class="contact col-md">
+          <form >
+            <div class="row g-3">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+              </div>
+      
+              <div class="col ">
+                <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+              </div>
+              
+              <div class="col-12">
+                <input type="email" class="form-control" placeholder="Email" aria-label="Email"> 
+              </div>
+      
+              <div class="form-floating" >
+                <textarea class="form-control" placeholder="Leave a comment here" aria-label="Email"></textarea>
+                <label for="floatingTextarea">Comments</label>
+              </div>
+            </div>
+    
+            <input class="btn  justify-content-center btn-lg" type="submit" value="Submit">
+
+          </form>
+        </div>
+      </div>  
+     <!-- end of contacts page -->
+
+      <!-- footer -->
+      <footer class="text-center">
+        <hr>
+        <p>  puritykoinange - Copyright ©2022</p>
+      </footer>
+      <!-- end of footer -->
+    </div>
+  </div>
+  <!-- end of scroll -->
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

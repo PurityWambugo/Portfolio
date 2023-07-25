@@ -1,0 +1,173 @@
+*{
+    color: white;
+}
+
+body{
+    background:linear-gradient(
+        68.15deg,#2F2325 16.62%,#8E5D52 85.61%);
+    color: #FFF2E7;
+    font-family: 'Roboto', sans-serif;
+}
+
+.display-4{
+    font-family: 'Courgette';
+}
+
+/* styling for navigation bar */
+nav{
+    backdrop-filter: blur(900px);
+}
+
+/* styling for homepage */
+.content{
+    margin: auto;
+}
+
+.img{
+    margin: auto;
+}
+
+.about .h5{
+    line-height: 1.5;
+}
+
+/* styling for projects page */
+.container .modal .modal-content{
+    background-color: #8E5D52;
+    color: #FFF2E7;
+}
+
+.container .modal .modal-content .btn{
+    margin: auto;
+}
+
+.container .card{
+    height: 20rem;
+    background: transparent;
+    box-shadow: 0px 8px 16px 0px  rgba(255, 255, 255, 0.1);
+    border: white solid 2px;
+    width: 250px; 
+     height: 350px;
+    max-width: 100%;
+    background-color: black;
+    transform: translateY(-10deg);
+}
+
+/* styling for aboutme page */
+.container .col-md-2{
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 5px;
+    border: black 2px solid;
+}
+
+/* styling for contact */
+.container .contact{
+    border: 2px solid;
+    margin: auto;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.container .col-md{
+    margin: auto;
+}
+
+.container .contact .btn{
+    margin-top: 30px;
+}
+
+.container  .btn{
+    background-color: black;
+    color: white;
+}
+
+
+/* media querry for large screens */
+@media (min-width: 1500.98px){
+    .container{
+        height: 100vh;
+        margin-top: auto;
+
+    }
+    
+   #projects{
+        height:max-content;
+    }
+    #contact{
+        height: 80vh;
+    }
+
+    .container .col-md{
+        margin: auto;
+    }
+
+    .container .about{
+        margin: auto;
+    }
+    .container .skills{
+        margin: auto;
+    }
+
+    .container .card{
+        flex: 100%;
+    }  
+    
+    #aboutme .about{
+        padding-top: 15%;
+    }
+
+
+
+}
+
+/* media querry for medium screens */
+@media (max-width: 1500.98px){
+    .container{
+        height: 100vh;
+    }
+
+    #projects{
+        height: max-content;
+        height: 100vh;   
+    }
+
+    #contact{
+        height: 70vh;
+    }
+
+    .container .col-md-2 img{
+        padding: 6px;
+        max-width: 100%;
+    }
+    
+  
+}
+
+/* media querry for small screens */
+@media (max-width: 767.98px){
+    
+    .container{
+        height: auto;
+    }
+
+    .container .card{
+        flex: 100%;
+    }
+
+    #projects{
+        height: max-content;
+          
+    }
+
+    .container .col-md-2 img{
+        padding: 10px;
+        max-width: 100%;
+    }
+    
+
+}
+

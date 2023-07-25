@@ -1,0 +1,311 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background: linear-gradient(180deg,#FC5E55 , #FA4083);
+    background-size: cover;
+    color: white;
+    font-weight: normal;
+    font-size: 20px ; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    margin:0 200px ;
+}
+
+.image{
+    background-image: url(images/image-lion-background.png);
+    background-repeat: no-repeat;
+}
+
+/*styling for navigation bar*/
+nav{
+    border-bottom: 1px solid rgba(207, 207, 207, 0.555);
+    display: flex;
+    flex-direction: row;
+}
+
+nav a{
+    margin-top: 100px;
+    text-decoration: none; 
+    color: white;
+}
+
+nav button{
+    border: 1px solid white;
+    padding: 8px 20px;
+    background: transparent;
+    margin-top: 45px;
+    margin-bottom: 10px;
+}
+
+nav div img{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 471px;
+   
+}
+
+nav .contact{
+    margin-right: 0;
+    flex: 10%;
+}
+
+nav .about{
+    flex: 10%;
+    margin-right: 10px;
+}
+
+nav .online{
+    flex: 15%;
+    margin-right: 10px;
+}
+
+nav .logo{
+    flex: 65%;
+}
+
+/*styling for header*/
+header {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 70px;  
+    justify-content: space-between;
+}
+
+header nav{
+    border: 2px solid black;
+}
+
+header h1{
+    margin-bottom: 20px;
+    font-weight: normal;
+    font-size: 60px;
+    font-family: '';
+    text-shadow: 0 0 3px #080808;
+
+}
+
+header p{
+    margin-bottom: 5px;
+    font-size: 21px;
+    margin-top: 10px;
+}
+
+header img{
+    margin: auto;
+    padding: auto;
+    width: 100%;
+    min-height: 200px;
+    
+}
+
+header button{
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    margin-top: 12px;
+    margin-bottom: 20px;
+    color: #FC5E55 ;
+    box-shadow: 0 0 3px #3b3b3b;
+}
+
+header .text{
+    flex: 70%;
+}
+
+header .person{
+    flex: 30%;
+}
+
+/*styling for the main*/
+main{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 80px; 
+    font-size: 17px;
+}
+
+main div{
+    border: 1px solid white;
+    min-width: 100px;
+    min-height: 250px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    flex: 30%;
+    margin-right: 20px;
+}
+
+.book{
+    background-image: url(images/image-background-card1-b.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.service{
+    background-image: url(images/image-background-card2-b.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.call{
+    background-image: url(images/image-background-card3-b.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-right: 0%;
+
+}
+  /*stylig for the div teestimonials*/
+.testimonials{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;    
+    line-height: 30px;
+    flex: 25%;
+}
+
+.testimonials div{
+    border: 1px solid white;
+    min-width: 360px;
+    padding: 40px 45px;
+    margin-bottom: 40px; 
+}
+
+/*meduium screen media querry */
+@media (max-width: 991.98px){
+    .container{
+        margin: 0;
+    }
+    nav{
+        display: flex; 
+        flex-wrap: wrap;
+    }
+
+    nav .logo{
+        flex: 100%;
+    }
+
+    nav .about{
+        flex: 30%;
+        margin-right: 10px;
+    }
+    
+    nav .online{
+        flex: 30%;
+        margin-right: 10px;
+    }
+     
+    nav .contact{
+        margin-right: 0;
+        flex: 30%;
+    }
+    
+    
+    header{
+        display: flex;
+        flex-direction: column;
+        margin: 0%;
+        text-align: center;
+    }
+
+    header .text{
+       flex: 100%;
+    }
+
+    header img{
+        flex: 100%;
+    }
+
+    
+    main div{
+        flex: 100%;
+        margin-right: 0%;
+        
+    }
+
+    .testimonials{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex: 100%;
+        text-align: center;
+    }
+
+
+}
+
+/*small screen media querry*/
+@media (max-width: 767.98px){
+    .container{
+        margin: 0;
+    }
+    nav{
+        display: flex; 
+        flex-wrap: wrap;
+    }
+
+    nav .logo{
+        flex: 100%;
+    }
+
+    nav .about{
+        flex: 30%;
+        margin-right: 10px;
+    }
+    
+    nav .online{
+        flex: 30%;
+        margin-right: 10px;
+    }
+     
+    nav .contact{
+        margin-right: 0;
+        flex: 30%;
+    }
+    
+    
+    header{
+        display: flex;
+        flex-direction: column;
+        margin: 0%;
+        text-align: center;
+    }
+
+    header .text{
+       flex: 100%;
+    }
+
+    header img{
+        flex: 100%;
+    }
+
+    
+    main div{
+        flex: 100%;
+        margin-right: 0%;
+        
+    }
+
+    .testimonials{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        flex: 100%;
+        text-align: center;
+        min-width: 100px;
+    }
+    .testimonials div{
+        min-width: 50px;
+    }
+
+   
+}
